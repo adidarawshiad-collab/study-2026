@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <title>שאלון מחקר</title>
+</head>
+<body style="font-family:Arial, sans-serif; text-align:center; padding-top:80px">
+  <p>מעביר אותך לשאלון…</p>
+  <script>
+    var forms = [
+      "https://docs.google.com/forms/d/e/1FAIpQLSeubwHUq1FZ9odVkjQlyf1j55EutvNBrjNZj50oifEv33HBnQ/viewform?usp=publish-editor",
+      "https://docs.google.com/forms/d/e/1FAIpQLSep6Q18mWcicHBVMiN9ZmkxB8lwEARWJvJcfmaL8B-NhYwhMw/viewform?usp=dialog",
+      "https://claude.ai/new"
+    ];
+    window.location.replace(forms[Math.floor(Math.random() * forms.length)]);
+  </script>
+</body>
+</html>
